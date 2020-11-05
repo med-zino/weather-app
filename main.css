@@ -44,6 +44,9 @@ header input {
 header input:focus {
   background-color: rgba(255, 255, 255, 0.6);
 }
+::placeholder { /* Microsoft Edge */
+ color: white;
+}
 
 main {
   flex: 1 1 100%;
